@@ -11,6 +11,7 @@ legistar = {git = "https://github.com/opencivicdata/python-legistar-scraper"}
 python-dateutil = "*"
 city-scrapers-core = {extras = ["aws"],version = "*"}
 scrapy-sentry = "*"
+pypiwin32 = "*"
 
 [dev-packages]
 freezegun = "*"
@@ -18,6 +19,7 @@ pytest = "*"
 "flake8" = "*"
 isort = "*"
 yapf = "*"
+pylint = "*"
 
 [pipenv]
 allow_prereleases = true
